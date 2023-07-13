@@ -1,0 +1,49 @@
+
+/*cria uma circulo*/ 
+#grafico-01 {
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+    padding: 150px 20px 150px 300px;
+}
+#grafico-01 img {
+    width: 100%;
+}
+
+#grafico-02 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+}
+
+#imagem-vetorial {
+    width: 100px;
+}
+
+#canvas {
+    height: 300px;
+    width: 300px;
+
+}
+
+/*Filtros*/ 
+
+.filtro {
+    filter: grayscale(100%);/*escala de cinza*/
+    filter: blur(5px); /*desfoque*/
+    filter: brightness(50%);/*brilho*/
+    filter: invert(100%); /*Inversâo de Cores*/
+    filter: opacity(50%); /*Opacidade*/ 
+}
+
+.filtro :hover {
+    filter: grayscale(0%);
+}
+
+.Pitinga {
+    width: 200px;
+}

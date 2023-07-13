@@ -1,0 +1,72 @@
+/* Arquivo CSS com estilos dos elementos da tabela*/
+h1 {
+text-align: center;
+font-size: 3rem;
+font-family: Arial, Helvetica, sans-serif;
+}	
+
+h2{
+text-align: center;
+font-size: 2rem;
+font-family: Arial, sans-serif
+ }
+
+ header {
+	background-color: #191970;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+  }
+
+table {
+    background: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr{
+	border: 1px solid #757575;
+}
+table tbody td :hover {
+	background-color: rgba(0, 0, 255, .2);
+}
+
+
+table th, 
+table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+table th {
+	background: #234589;
+	color: #ffffff ;
+	font-weight:bold;
+	font-size: 1.8rem;
+}
+
+.table-container {
+	padding:2rem 1rem;
+}
+
+.table-container h3 {
+	font-size: 1.8rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+.table-container tfoot {
+	font-weight: bold;
+	background: #EEEEEE;
+}
+/* Style the footer */
+footer {
+	background-color: #777;
+	text-align: center;
+	color: white;
+	padding: 10px;;
+	width: 100%;
+  }
+
