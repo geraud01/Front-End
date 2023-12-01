@@ -9,7 +9,6 @@ Cascade StyleSheet - folhas de estilo em cascata.
 ## JavaScript
 Liguagem de programação para web
 
-## GIT
 ### Conceitos de versionamento
  - Histórico
  - Controle de versão
@@ -22,14 +21,6 @@ Liguagem de programação para web
  Arquivo A  | Versão 1 | Versão 2
  Arquivo B  | Versão 1 | Versão 2
 
- ### Instalação do Git
-https://git-scm.com/
-
-- Windows: https://git-scm.com/download/win
-- Linux (apt-get): sudo apt-get install git
-- Mac (brew): brew install git
-
- ### Criar conta no GitHub
 
  ### Clonar o projeto
  git clone https://github.com/cavalcantemmarcelo/curso-frontend.git
