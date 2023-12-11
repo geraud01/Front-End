@@ -11,14 +11,15 @@ body {
 .main-container {
     display: block;
     width: 100vw;
-    margin: 0 auto;
+    margin: 0 auto
+
 }
 
 .container {
     display: block;
     float: left;
-    padding: 20px;
-    max-width: 100%;
+    padding: 0;
+    width: 98%;
     margin: 0 auto;
     max-width: 1198px;
 }
@@ -27,7 +28,7 @@ header {
     background: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #254159;
 }
@@ -103,7 +104,7 @@ section {
     display: block;
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */ 
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -142,7 +143,7 @@ footer {
     background-color: #254159;  
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -172,4 +173,86 @@ footer small {
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+
+#banner {
+    background-image: url(../imagens/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+.legenda-container{
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0;
+}
+
+.legenda {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4 {
+    color: #385874;
+    line-height: 1.5; 
+}
+
+.button-cta{
+    border-radius: 25px;
+    display: inline;
+    background-color: orangered;
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px  grey;    
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    float: right;
+}
+
+#saiba-mais {
+    background-color: #eaeff3;
+    padding: 40px 0;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+#perguntas-frequentes {
+    background-color: #b8c8dc;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+dl {
+    margin-top: 20px;
+
+}
+
+dt {
+    font-weight: 400;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
 }
