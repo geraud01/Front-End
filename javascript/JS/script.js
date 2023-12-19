@@ -11,20 +11,19 @@ function calcularMedia( notas ) {
 
 }
 
-let media; // escopo global
+let media;
 
 function aprovacao( notas ) {
 
-    let media = calcularMedia( notas ); // escopo da função
+    let media = calcularMedia( notas ); 
 
     let condicao = media >= 8 ? "aprovado" : "reprovado";
 
-    return 'Média: ' + media + ' - Resultado: ' + condicao;
+    return 'Media: ' + media + ' - Resultado: ' + condicao;
 
 }
 
 
-// Função Recursivas
 
 function contagemRegressiva(numero){
 
@@ -37,15 +36,14 @@ function contagemRegressiva(numero){
 
 }
 
-// contagemRegressiva(50);
 
 /* 
  * Formulário envio de dados para cálculo da média 
  */
-const formulario1 = document.getElementById('formulario-01');
+const formulario = document.getElementById('formulario-01');
 
-if(formulario1)
-    formulario1.addEventListener('submit', function( evento ){
+if(formulario)
+    formulario.addEventListener('submit', function( evento ){
 
         evento.preventDefault();
         evento.stopPropagation();
@@ -128,6 +126,7 @@ function validaEmail(elemento){
 
         event.preventDefault();
 
+
         const emailValido = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?/i;
         if(this.value.match(emailValido)) {
             document.querySelector('.mensagem').innerHTML = "";
@@ -146,17 +145,19 @@ function validaEmail(elemento){
 
 
 let camposObrigatorios = document.querySelectorAll('input.obrigatorio');
-let camposNumericos = document.querySelectorAll('input.numero');
-let camposEmail = document.querySelectorAll('input.email');
+let campoNumericos = document.querySelectorAll('input.numero');
+let campoEmail = document.querySelectorAll('input.email');
 
 for( let emFoco of camposObrigatorios) {
     validaCampo(emFoco);
 }
 
 for( let emFoco of camposNumericos) {
+
     validaCampoNumerico(emFoco);
 }
 
 for( let emFoco of camposEmail) {
+
     validaEmail(emFoco);
 }
