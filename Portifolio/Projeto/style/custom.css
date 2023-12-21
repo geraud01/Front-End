@@ -4,10 +4,23 @@ h1 {
     padding: 1rem;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, li {
     padding: 1rem;
 }
 
 p {
     padding: 1rem;
+}
+
+header {
+    background: #fff;
+    display: block;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#banner {
+    background-image: url(../imagens/Capa.png)
+
 }

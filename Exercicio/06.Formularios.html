@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Fale conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #191970;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #B0C4DE;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #FFFAFA;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>HTML - Fale Conosco </h2>
+		</header>
+
+		<section>
+
+				<nav>
+					<h3>Aulas - Engenheiro de Front-End</h3>
+					<ul>
+						<li><a href="01.introducao.html" target="_self">Introdução</a></li>
+						<li><a href="02.listas&links.html" target="_self">Listas e Links</a></li>
+						<li><a href="03.formatacaodetextos.html" target="_self">Formatação de Texto</a></li>
+						<li><a href="04.formatacao-de-tabelas.html" target="_self">Tabelas</a></li>
+						<li><a href="05.Layouts.html" target="_self">Layouts</a></li>
+						<li><a href="06.Formularios.html" target="_self">Formulários</a></li>
+						<li><a href="07.tabela.html" target="_self">Módulo 7</a></li>
+						<li><a href="08.layouts-fluidos.html" target="_self">Layouts Fluidos</a></li>
+						<li><a href="09.Elementos-graficos.html" target="_self">Elementos Graficos</a></li>
+						<li><a href="10.weblayouts.html" target="_self">Web Layouts</a></li>
+					</ul>
+				</nav>
+
+			<article>
+
+				<h1>Contato</h1>    
+                <p>Preencha os campos Abaixo</p>
+                
+                <form method="post">
+                    <div>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="name" id="nome" placeholder="Digite o seu nome">
+                    </div>                    
+                    <div>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" name="email" id="email" placeholder="Digite o seu email">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea type="mensagem" name="mensagem" id="mensagem" rows="5" placeholder="Digite a sua mensagem"></textarea>
+                    </div>  
+                    <div>            
+                        <input type="submit">
+                    </div>
+                    <div>
+                        <p>
+                        <label>Quais linguagens você sabe?</label><br>
+                        <input type="radio" name="linguagens"> HTML<br>
+                        <input type="radio" name="linguagens"> CSS<br>
+                        <input type="radio" name="linguagens"> JavaScript<br>
+                        </p>
+                    </div>  
+                     <div>            
+                        <input type="submit">
+                    </div>
+                    <div>
+                        <p>
+                        <label>Qual linguagem você prefere? </label><br>
+                        <input type="checkbox" name="linguagens"> HTML<br>
+                        <input type="checkbox" name="linguagens"> CSS<br>
+                        <input type="checkbox" name="linguagens"> JavaScript<br>
+                        </p>
+                    </div>
+                     <div>            
+                        <input type="submit">
+                    </div>                                        
+                    <div>
+                    	<p>
+                        <label> Qual é a sua cor favorita?</label><br>
+                        <select>
+                            <option value="Azul">Azul</option> 
+                            <option value="vermelho" selected>Vermelho</option> 
+                            <option value="verde">Verde</option> 
+                        </p>
+                        </select>
+                    </div>
+                     <div>            
+                        <input type="submit">
+                    </div>
+                </form>
+			</article>
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Geraud</p>
+		</footer>
+	</body>
+</html>

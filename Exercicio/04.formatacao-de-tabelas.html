@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!-- HTML padrão 5 -->
+<html lang="pt-BR">
+    <head>
+            <title> HTML - Formatação de Tabelas </title>
+            <meta charset=UTF-8>
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href="01.introducao.html" target="_self">Introdução</a></li>
+                <li><a href="02.listas&links.html" target="_self">Listas e Links</a></li>
+                <li><a href="03.formatacaodetextos.html" target="_self">Formatação de Texto</a></li>
+                <li><a href="04.formatacao-de-tabelas.html" target="_self">Tabelas</a></li>
+                <li><a href="05.Layouts.html" target="_self">Layouts</a></li>
+                <li><a href="06.Formularios.html" target="_self">Formulários</a></li>
+                <li><a href="07.tabela.html" target="_self">Módulo 7</a></li>
+                <li><a href="08.layouts-fluidos.html" target="_self">Layouts Fluidos</a></li>
+                <li><a href="09.Elementos-graficos.html" target="_self">Elementos Graficos</a></li>
+                <li><a href="10.weblayouts.html" target="_self">Web Layouts</a></li>
+            </ul>
+        </nav>
+        <h1>Tabelas</h1>  
+        <table border="1" width="50%">
+            <thead>
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                </tr>
+                <tr>
+                    <td colspan="3">Descrição da Tabela</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td>1A</td>
+                    <td>1B</td>
+                    <td>1C</td>
+                </tr>
+                <tr align="right">
+                    <td>2A</td>
+                    <td>2B</td>
+                    <td>2C</td>
+                </tr>
+                <tr>
+                    <td>3A</td>
+                    <td colspan="2">3Bc</td>               
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"> Rodapé da tabela</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <h2>Tabela como layout</h2>
+        <table width="700">
+            <tr height="100">
+                <td width="20"></td>
+                <td bgcolor="#GGEEE" colspan="2" ALIGN="center">Cabeçalho</td>
+                <td width="20"></td>
+            </tr>
+            <tr height="300">
+                <td width="20" bgcolor="#HTEEE"></td>
+                <td bgcolor="#DDDDD">Coluna 1</td>
+                <td bgcolor="#EEEEE">Coluna 2</td>
+                <td width="20" bgcolor="#HTEEE" ></td>
+            </tr>
+            <tr>
+                <td ALIGN="center" bgcolor="#FF0000" colspan="4">Rodapé</td>
+            </tr>
+        </table>        
+    </body>
+</html>
