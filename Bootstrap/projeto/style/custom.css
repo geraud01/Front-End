@@ -17,3 +17,7 @@ input, textarea {
 body {
     background-color: whitesmoke; 
 }
+
+.container {
+    height: 50%;
+}

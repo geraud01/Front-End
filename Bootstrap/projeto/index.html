@@ -13,149 +13,232 @@
 <body>
   
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>MatchPointTennis</h1>
-        </div>
-        <div class="col">
-          <ul class="nav justify-content-center">
-            <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
-            <li class="nav-item"><a class="nav-link" href="./cadastro.html">Cadastro</a></li>
-          </ul>
-        </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">MatchPointTennis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="textoNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#top">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#produtos">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cadastro.html">Cadastro</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
+
   </header>
   
-  <section id="sobre">
-    <div class="container"> 
-      <div class="rowm">
-        <div class="col-md-7 col-sm-12">
-          <h2>Bem-vindo à MatchPointTennis!</h2>
-          
-          <p>mais do que apenas uma loja de tênis; somos apaixonados por tudo que envolve esse universo vibrante. Desde os corredores profissionais até os entusiastas que exploram as quadras de bairro, estamos aqui para conectar e inspirar cada jogador.</p> 
-          
-          <p>Nossa jornada começou com um objetivo simples: oferecer não apenas os melhores produtos, mas também a expertise e a paixão que sustentam esse esporte. Com uma seleção cuidadosamente curada dos mais recentes lançamentos e os clássicos atemporais, buscamos oferecer variedade e qualidade para atender a todos os estilos e níveis de jogo.</p>
-          
-          <p>Além de ser uma loja, somos uma comunidade. Acreditamos no poder transformador do tênis, na conexão que ele cria entre as pessoas e na paixão que desperta em cada jogador. Por isso, não se surpreenda se encontrar não apenas produtos, mas também dicas, histórias inspiradoras e eventos para unir todos os amantes desse esporte.</p>
-          
-          <p>Nossa equipe é formada por jogadores ávidos, treinados para oferecer orientação personalizada e conselhos especializados. Queremos ser seu parceiro de confiança em sua jornada no mundo do tênis, desde o momento em que você escolhe seu primeiro par de raquetes até os momentos de vitória nas quadras.</p>
-          
-          <p>Seja você um iniciante ou um veterano das quadras, estamos aqui para impulsionar sua paixão pelo tênis e sermos parte do seu sucesso.</p>
-          
-          <p>Bem-vindo à família MatchPointTennis, onde a paixão pelo tênis se torna realidade!</p>
+  <Section>
+    <div class="container">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="First slide"
+          ></li>
+          <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="1"
+          aria-label="Second slide"
+          ></li>
+          <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="2"
+          aria-label="Third slide"
+          ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+            src="./imagens/1.png"
+            class="w-100 d-block"
+            alt="First slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Verão 2024</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imagens/2.png" class="w-100 d-block " alt="Second slide"/>
+            <div class="carousel-caption d-none d-md-block">
+              <h3>50% off</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+            src="./imagens/banner3.png"
+            class="w-100 d-block"
+            alt="Third slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>oferta especial</h3>
+            </div>
+          </div>
+        </div>
+        <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselId"
+        data-bs-slide="prev"
+        >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselId"
+      data-bs-slide="next"
+      >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  
+</div>
+</Section>
+
+<section id="sobre">
+  <div class="container"> 
+    <div class="rowm">
+      <div class="col-md-7 col-sm-12">
+        <h2>Bem-vindo à MatchPointTennis!</h2>
+        
+        <p>mais do que apenas uma loja de tênis; somos apaixonados por tudo que envolve esse universo vibrante. Desde os corredores profissionais até os entusiastas que exploram as quadras de bairro, estamos aqui para conectar e inspirar cada jogador.</p> 
+        
+        <p>Nossa jornada começou com um objetivo simples: oferecer não apenas os melhores produtos, mas também a expertise e a paixão que sustentam esse esporte. Com uma seleção cuidadosamente curada dos mais recentes lançamentos e os clássicos atemporais, buscamos oferecer variedade e qualidade para atender a todos os estilos e níveis de jogo.</p>
+        
+        <p>Além de ser uma loja, somos uma comunidade. Acreditamos no poder transformador do tênis, na conexão que ele cria entre as pessoas e na paixão que desperta em cada jogador. Por isso, não se surpreenda se encontrar não apenas produtos, mas também dicas, histórias inspiradoras e eventos para unir todos os amantes desse esporte.</p>
+        
+        <p>Nossa equipe é formada por jogadores ávidos, treinados para oferecer orientação personalizada e conselhos especializados. Queremos ser seu parceiro de confiança em sua jornada no mundo do tênis, desde o momento em que você escolhe seu primeiro par de raquetes até os momentos de vitória nas quadras.</p>
+        
+        <p>Seja você um iniciante ou um veterano das quadras, estamos aqui para impulsionar sua paixão pelo tênis e sermos parte do seu sucesso.</p>
+        
+        <p>Bem-vindo à família MatchPointTennis, onde a paixão pelo tênis se torna realidade!</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section id="produtos">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        
+        <h2>Produtos</h2>
+        
+        <div class="card">
+          <img src="./imagens/a04688c_a_107x1_17.webp" alt="exemplo" class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Chuck Taylor All Star Cruise Branco</h5>
+            <p class="card-text">Uma nova versão do estilo icônico Chuck Taylor, o Chuck Taylor All Star Cruise combina um estilo inspirado no skate com o conforto do dia a dia.</p>
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver preços</a>
+          </div>
         </div>
         
-      </div>
-    </div>
-  </section>
-  
-  <section id="produtos">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          
-          <h2>Produtos</h2>
-          
-          <div class="card">
-            <img src="./imagens/a04688c_a_107x1_17.webp" alt="exemplo" class="img-fluid">
-            <div class="card-body">
-              <h5 class="card-title">Chuck Taylor All Star Cruise Branco</h5>
-              <p class="card-text">Uma nova versão do estilo icônico Chuck Taylor, o Chuck Taylor All Star Cruise combina um estilo inspirado no skate com o conforto do dia a dia.</p>
-              <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver preços</a>
-            </div>
+        <div class="card">
+          <img src="./imagens/162050c_a_107x1 (1).webp" alt="exemplo" class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Chuck 70 Vintage Preto</h5>
+            <p class="card-text">O Chuck 70 foi construído a partir do design original dos anos 1970, com materiais premium e habilidade extraordinária.</p>
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>
           </div>
-          
-          <div class="card">
-            <img src="./imagens/162050c_a_107x1 (1).webp" alt="exemplo" class="img-fluid">
-            <div class="card-body">
-              <h5 class="card-title">Chuck 70 Vintage Preto</h5>
-              <p class="card-text">O Chuck 70 foi construído a partir do design original dos anos 1970, com materiais premium e habilidade extraordinária.</p>
-              <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>
-            </div>
+        </div>
+        
+        <div class="card">
+          <img src="./imagens/CT04940002_A_107x1_3.webp" alt="exemplo" class="img-fluid">
+          <div class="card-body">
+            <h5 class="card-title"> Chuck All Star Lift Canvas Vermelho </h5>
+            <p class="card-text"> Você já conhece os detalhes que começaram na quadra de basquete - aquela sola com padrão de diamante, o patch de tornozelo que é a assinatura. </p>
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>
           </div>
-          
-          <div class="card">
-            <img src="./imagens/CT04940002_A_107x1_3.webp" alt="exemplo" class="img-fluid">
-            <div class="card-body">
-              <h5 class="card-title"> Chuck All Star Lift Canvas Vermelho </h5>
-              <p class="card-text"> Você já conhece os detalhes que começaram na quadra de basquete - aquela sola com padrão de diamante, o patch de tornozelo que é a assinatura. </p>
-              <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>
-            </div>
-          </div>
-          
         </div>
         
       </div>
       
     </div>
-  </section>
-  
-  <section id="contato">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <h2>Contato</h2>
-          <p> Tem alguma sugestão? Nos envie preenchendo os campos ao lado! </p>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <form class="form">
-            <div class="input-group">
-              <input class="form-control" class="text" name="none" placeholder="digite seu nome">
-            </div>
-            
-            <div class="input-group">
-              <input class="form-control" type="text" name="none" placeholder="digite seu email">
-            </div>
-            
-            <div class="input-group">
-              <textarea class="form-control"  name="" rows="5"></textarea>
-            </div>
-            
-            <button type="submit" class="btn btn-lg btn-success">Solicitar orçamento</button>
-            
-          </form>
+    
+  </div>
+</section>
+
+<section id="contato">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h2>Contato</h2>
+        <p> Tem alguma sugestão? Nos envie preenchendo os campos ao lado! </p>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <form class="form">
+          <div class="input-group">
+            <input class="form-control" class="text" name="none" placeholder="digite seu nome">
+          </div>
           
-        </div>
+          <div class="input-group">
+            <input class="form-control" type="text" name="none" placeholder="digite seu email">
+          </div>
+          
+          <div class="input-group">
+            <textarea class="form-control"  name="" rows="5"></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-lg btn-success">Solicitar orçamento</button>
+          
+        </form>
+        
       </div>
     </div>
-    
-  </section>
+  </div>
   
-  <div class="modal fade" id="modal-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Produto 1</h5>
-          <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <h6>Confira o tamanho e os preços</h6>
-          <table class="table table-hover tabçe-striped">
-            <thead>
-              <tr>
-                <th>Tamanho</th>
-                <th>Valor</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>34</td>
-                <td>R$ 489,90</td>
-              </tr>
-              <td>37</td>
+</section>
+
+<div class="modal fade" id="modal-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Produto 1</h5>
+        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Confira o tamanho e os preços</h6>
+        <table class="table table-hover tabçe-striped">
+          <thead>
+            <tr>
+              <th>Tamanho</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>34</td>
               <td>R$ 489,90</td>
             </tr>
-            <td>40</td>
+            <td>37</td>
             <td>R$ 489,90</td>
           </tr>
-        </tbody>
-      </table>
-    </div>
+          <td>40</td>
+          <td>R$ 489,90</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+</div>
 </div>
 </div>
 
